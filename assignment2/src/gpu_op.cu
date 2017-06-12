@@ -4,6 +4,7 @@
 #include <cublas_v2.h>
 #include <cuda_runtime.h>
 
+
  /* return uprounding of division */
 int ceil(int a, int b){
   if (a % b == 0) return a / b;
